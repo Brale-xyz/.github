@@ -1,14 +1,24 @@
-## Summary
-<!-- Implementation and architectural changes introduced. -->
+<!-- prettier-ignore-start -->
+## Description
+<!-- Implementation and architectural changes introduced. For examples, see https://github.com/google/eng-practices/blob/master/review/developer/cl-descriptions.md -->
 
-## Test Plan
+## Test plan
 <!-- How to test changes. -->
 
-## Release Notes
-<!-- Provided to customers. Explain new features, bug fixes, and deprecating or breaking changes. -->
-
-## Possible Regressions
-<!-- Possible impacts to other features. -->
+## Possible regressions or performance implications
+<!-- Impacts on other features or performance. -->
 
 ## Dependencies
 <!-- Links to dependent PRs or tickets. -->
+
+## Reviewer checklist
+<!-- See https://github.com/google/eng-practices/blob/master/review/reviewer/looking-for.md -->
+
+[] Code and tests are well-designed and only as complicated as necessary.
+[] Good experience for clients of code.
+[] Existing use-cases are implemented, not potential future ones (YAGNI).
+[] Clear and consistent naming.
+[] Comments and documentation are clear, useful, and explain why instead of what.
+[] Sensible and attractive UI changes, if any.
+
+<!-- prettier-ignore-end -->

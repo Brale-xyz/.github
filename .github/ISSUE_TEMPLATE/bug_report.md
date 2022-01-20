@@ -6,7 +6,8 @@ labels: ""
 assignees: ""
 ---
 
-## Summary
+<!-- prettier-ignore-start -->
+## Description
 <!-- Clear and concise description of issue. -->
 
 ## Reproduction steps
@@ -33,3 +34,5 @@ assignees: ""
 
 ## Additional context
 <!-- Any other context about issue. -->
+
+<!-- prettier-ignore-end -->
